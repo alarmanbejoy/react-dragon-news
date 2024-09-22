@@ -9,7 +9,7 @@ const LeftSideNav = () => {
       .then((data) => setCategories(data));
   }, []);
   return (
-    <div className="border">
+    <div >
       <h1 className="text-xl">All Categories</h1>
       {categories.map((category) => (
         <div className="m-4" >
